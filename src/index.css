@@ -1,0 +1,36 @@
+@media screen and (max-width: 1400px){
+  .section__deco:not(.header__deco){
+    display: none;
+  }
+  .header{
+    padding: 30px 12px;
+  }
+  .home__img-wrapper{
+    max-width: 600px;
+    transform: translateY(-6px);
+  }
+  .home__profile{
+    height: auto;
+  }
+
+  .home__data{
+    transform: scale(0.9);
+  }
+
+  .shape__1{
+    width: 203px;
+    height: 203px;
+  }
+
+  .shape__2,
+  .shape__3{
+    width: 126px;
+    height: 126px;
+  }
+
+  .home__title{
+    color: red;
+  }
+}
+
+
