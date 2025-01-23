@@ -87,4 +87,6 @@
   align-items: center;
   justify-content: flex-end;
   column-gap: 30px;
+  flex-wrap: wrap;
+    row-gap: 15px;
 }

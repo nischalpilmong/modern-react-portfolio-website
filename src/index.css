@@ -86,3 +86,87 @@
   }
 
 }
+
+@media screen and (max-width: 992px){
+  :root{
+        --h2-font-size: 24px;
+      --h3-font-size: 23px;
+      --h4-font-size: 21px;
+      --h5-font-size: 20px;
+      --largest-font-size: 19px;
+      --larger-font-size: 18px;
+      --large-font-size: 16px;
+      --normal-font-size: 15px;
+      --small-font-size: 14px;
+      --smaller-font-size: 13px;
+      --tiny-font-size: 12px;
+  }
+  .container{
+    max-width: 760px;
+  }
+
+  .home__btns{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 60px;
+  }
+
+  .hero__link::before{
+    top: -72%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 40px;
+    width: 2px;
+  }
+
+  .skills__container,
+  .portfolio__container,
+  .pricing__container,
+  .blog__container{
+    gap: 30px;
+  }
+  .resume__container {
+     grid-template-columns: 1fr;
+     row-gap: 40px;
+  }
+
+  .resume__icon{
+    width: 40px;
+    height: 40px;
+    right: -20px;
+  }
+  .portfolio__img{
+    height: 200px;
+  }
+
+  .contact__form-group{
+    grid-template-columns: 1fr;
+    row-gap: 0;
+  }
+
+  .contact__card-icon{
+    font-size: var(--large-font-size);
+    width: 42px;
+    height: 42px;
+  }
+
+  .contact__card-icon::after{
+    width: 32px;
+  }
+
+  .contact__card{
+    padding-left: 100px;
+  }
+
+  .footer__container{
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 12px;
+  }
+   .footer__copyright:nth-child(2),
+   .footer__socials,
+   .footer__copyright:last-child
+   {
+    justify-self: center;
+   }
+}
