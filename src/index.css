@@ -27,10 +27,42 @@
     width: 126px;
     height: 126px;
   }
-
-  .home__title{
-    color: red;
-  }
 }
 
+@media screen and (max-width: 1200px){
+  .container{
+     max-width: 960px;
+  }
 
+  .home{
+    padding-top: 140px;
+  }
+
+  .home__subtitle,
+  .home__title,
+  .home__job,
+  .home__text{
+    text-align: center;
+  }
+
+  .home__text{
+    margin-inline: auto;
+  }
+
+  .home__img-wrapper{
+    position: relative;
+    transform: initial;
+    right: initial;
+    margin-inline: auto;
+    margin-top: 140px;
+  }
+
+  .home__banner .home__profile{
+    height: auto;
+  }
+
+  .home__socials,
+  .home__btns{
+    justify-content: center;
+  }
+}
