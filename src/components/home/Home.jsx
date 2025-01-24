@@ -13,7 +13,7 @@ const Home = () => {
             <div className='home__container container'>
                   <p className='home__subtitle text-cs'>Hello, <span>My Name Is</span></p>
                   <h1 className='home__title text-cs'>
-                      <span>ZOE</span> MILLER
+                      <span>NISCHAL</span> RAI
                   </h1>
                   <p className='home__job'>
                       <span className='text-cs'>I Am</span> <b>Web Developer</b>
